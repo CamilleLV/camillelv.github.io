@@ -27,6 +27,22 @@ function App() {
   const [lang, setLang] = useState('fr');
   const [activeArticle, setActiveArticle] = useState(null);
 
+  // 🌟 NOUVEAU : On stocke le hash de l'URL dans un état React
+  const [currentHash, setCurrentHash] = useState(window.location.hash);
+  
+  // 🌟 NOUVEAU : On demande à React d'écouter les changements d'URL
+  useEffect(() => {
+    const onHashChange = () => {
+      setCurrentHash(window.location.hash);
+    };
+    
+    // Ajoute l'écouteur
+    window.addEventListener('hashchange', onHashChange);
+    
+    // Nettoie l'écouteur si le composant est démonté
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
+
   useEffect(() => {
     const interval = setInterval(() => setImgIdx(idx => (idx + 1) % images.length), 5000);
     return () => clearInterval(interval);
@@ -62,7 +78,7 @@ function App() {
   // 🌟 INTERCEPTION POUR LA ROUTE SECRÈTE "LE TALON FAIBLE"
   // Si l'URL dans la barre de recherche est exactement '/le-talon-faible', 
   // on affiche uniquement le jeu au lieu du portfolio complet.
-  if (window.location.hash === '#le-talon-faible') {
+  if (currentHash === '#le-talon-faible') {
     return <TalonFaible />;
   }
 
