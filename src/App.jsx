@@ -62,7 +62,7 @@ function App() {
   // 🌟 INTERCEPTION POUR LA ROUTE SECRÈTE "LE TALON FAIBLE"
   // Si l'URL dans la barre de recherche est exactement '/le-talon-faible', 
   // on affiche uniquement le jeu au lieu du portfolio complet.
-  if (window.location.pathname === '/le-talon-faible') {
+  if (window.location.hash === '#le-talon-faible') {
     return <TalonFaible />;
   }
 
