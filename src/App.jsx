@@ -8,6 +8,9 @@ import {
 import portfolioData from './portfolioData.json';
 import { postContents } from './posts';
 
+// 🔹 IMPORTATION DU NOUVEAU JEU
+import TalonFaible from './components/TalonFaible';
+
 const images = ["images/profile1.png", "images/profile2.png", "images/profile3.png"];
 const typewriterWords = ["Engineer", "Enthusiast"];
 
@@ -55,6 +58,13 @@ function App() {
     setActiveArticle({ ...post, content });
     window.scrollTo(0, 0); 
   };
+
+  // 🌟 INTERCEPTION POUR LA ROUTE SECRÈTE "LE TALON FAIBLE"
+  // Si l'URL dans la barre de recherche est exactement '/le-talon-faible', 
+  // on affiche uniquement le jeu au lieu du portfolio complet.
+  if (window.location.pathname === '/le-talon-faible') {
+    return <TalonFaible />;
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-tr from-[#E6F4EA] via-[#F4FBF7] to-[#F8FAFC] text-[#11221B] selection:bg-[#059669] selection:text-white font-sans overflow-x-hidden antialiased">

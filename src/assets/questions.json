@@ -1,0 +1,22 @@
+[
+  { "id": 1, "question": "Citez moi des chansons de Lip sync !", "indication_mj": "Playbacks cultes, Drag Race, etc." },
+  { "id": 2, "question": "Citez moi des choses que l'on peut faire.... avec un seul doigt !", "indication_mj": "Soyez indulgents... ou pas." },
+  { "id": 3, "question": "Citez moi des chansons de Mylène Farmer !", "indication_mj": "Désenchantée, Sans contrefaçon, Libertine..." },
+  { "id": 4, "question": "Citez moi des chansons de Lady Gaga !", "indication_mj": "Bad Romance, Poker Face, Born This Way..." },
+  { "id": 5, "question": "Citez moi des choses qui se mangent commençant par la lettre B !", "indication_mj": "Banane, boudin, brioche..." },
+  { "id": 6, "question": "Citez moi des choses qui se mangent commençant par la lettre C !", "indication_mj": "Carotte, chocolat, clafoutis..." },
+  { "id": 7, "question": "Citez moi des choses qui durent environ 1H !", "indication_mj": "Un épisode de série, un cours, etc." },
+  { "id": 8, "question": "Citez moi des défauts de vos concurrent.es !", "indication_mj": "Lâchez les chiens." },
+  { "id": 9, "question": "Citez moi des qualités de vos concurrent.es !", "indication_mj": "C'est dur de trouver, hein ?" },
+  { "id": 10, "question": "Citez-moi des heures entre 14H et 15H, qui ne contiennent pas 2 fois le même chiffre !", "indication_mj": "Ex: 14h05. Faux : 14h15 (deux 1)." },
+  { "id": 11, "question": "Citez-moi des choses qui sentent mauvais !", "indication_mj": "Laissez parler l'inspiration." },
+  { "id": 12, "question": "Citez-moi des clubs de foot de ligue 1 !", "indication_mj": "OL, PSG, OM..." },
+  { "id": 13, "question": "Citez-moi des choses à ne pas dire lors d'un premier date !", "indication_mj": "Acceptez tout ce qui fait fuir." },
+  { "id": 14, "question": "Citez-moi des disquettes !", "indication_mj": "Les pires phrases de drague." },
+  { "id": 15, "question": "Citez-moi des mots français qui n'existent pas !", "indication_mj": "Ex : Vastouflette. Si ça sonne bien, validez !" },
+  { "id": 16, "question": "Citez-moi des choses qu'on emprunte toujours à ses colocs sans demander !", "indication_mj": "Papier toilette, sel, gel douche..." },
+  { "id": 17, "question": "Citez-moi des excuses pour annuler une sortie à vélo au dernier moment !", "indication_mj": "Il pleut, j'ai crevé, j'ai la flemme..." },
+  { "id": 18, "question": "Citez-moi des choses qui font peur aux enfants !", "indication_mj": "Monstres, clowns, orages..." },
+  { "id": 19, "question": "Citez-moi des spécialités de repas !", "indication_mj": "Andouillette, grattons, quenelle..." },
+  { "id": 20, "question": "Citez-moi des choses qui font peur aux adultes !", "indication_mj": "Impôts, chômage, solitude..." }
+]
